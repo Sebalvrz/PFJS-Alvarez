@@ -766,7 +766,7 @@ h1 {
 }
 
 .btnback-ac16 {
-  font-size: 12PX;
+  font-size: 12px;
   background-color: white;
   border: 2px solid;
   border-color: #484848;
@@ -811,6 +811,52 @@ h1 {
 
 .footer-shop {
   padding-top: 0px;
+}
+
+/* html Buy */ 
+
+h5 {
+  font-size: 40px;
+  color: #484848;
+  margin-top: 160px;
+}
+.date-buy {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  color: #484848;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.addToBag {
+  font-size: 12px;
+  color: white;
+  background-color: #1bb11f;
+  border: 2px solid;
+  border-color: #1bb11f;
+  padding: 12px 25px 12px 25px;
+  transition-duration: 0.3s;
+}
+.addToBag:hover {
+  background-color: #484848;
+  border-color: #484848;
+  color: white;
+}
+
+.cancel {
+  font-size: 12px;
+  color: white;
+  background-color: #c33a41;
+  border: 2px solid;
+  border-color: #c33a41;
+  padding: 12px 25px 12px 25px;
+  transition-duration: 0.3s;
+}
+.cancel:hover {
+  background-color: #484848;
+  border-color: #484848;
+  color: white;
 }
 
 /* media queries */
@@ -1579,6 +1625,62 @@ h1 {
   .ac16-photo {
     margin-top: 0;
     width: 300px;
+  }
+}
+
+/* html buy */
+
+@media (max-width: 1200px) {
+  h5 {
+    font-size: 35px;
+    margin-top: 0px;
+  }
+  .date-buy {
+    font-size: 10px;
+  }
+  .addToBag {
+    padding: 9px 11.25px 9px 11.25px;
+    font-size: 12px;
+  }
+  .cancel {
+    padding: 9px 11.25px 9px 11.25px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  h5 {
+    font-size: 35px;
+    margin-top: 0px;
+  }
+  .date-buy {
+    font-size: 10px;
+  }
+  .addToBag {
+    padding: 9px 11.25px 9px 11.25px;
+    font-size: 10px;
+  }
+  .cancel {
+    padding: 9px 11.25px 9px 11.25px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  h5 {
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .date-buy {
+    font-size: 7px;
+  }
+  .addToBag {
+    padding: 6.75px 8.44px 6.75px 8.44px;
+    font-size: 9px;
+  }
+  .cancel {
+    padding: 6.75px 8.44px 6.75px 8.44px;
+    font-size: 9px;
   }
 }
 
